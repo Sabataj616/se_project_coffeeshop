@@ -24,4 +24,10 @@
     font-size: 16px;
     line-height: 20px;
   text-decoration: none;
-  color:black;}
+  color:black;
+transition: opacity 0.5s;
+cursor: pointer;}
+
+  .nav__link:hover{
+    opacity: 50%;
+  }
