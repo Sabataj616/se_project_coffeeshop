@@ -1,4 +1,4 @@
-.about{
+.about {
   background-color: #0a2850;
   color: #fff;
   padding: 100px 80px 173px;
@@ -9,32 +9,32 @@
   z-index: 0;
 }
 
-.about__title{
+.about__title {
   max-width: 251px;
   font-family: "Inter", Arial, sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 44px;
-line-height: 52px;
-margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
 }
 
-.about__content{
+.about__content {
   max-width: 660px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  top: 19px;
+  margin-top: 19px;
 }
 
-.about__paragraph{
-  font-family: "Noto Serif", 'Times New Roman', serif;
-     font-size: 20px;
-     line-height: 30px;
-     margin: 0;
+.about__paragraph {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
 }
 
-.about__circle{
+.about__circle {
   position: absolute;
   background-color: #1878dc;
   border-radius: 50%;
@@ -45,11 +45,11 @@ margin: 0;
   z-index: -1;
 }
 
-.about__circle_animation_blurred{
+.about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
 
-@keyframes pulsate{
+@keyframes pulsate {
   0% {
     opacity: 0;
   }
